@@ -42,7 +42,7 @@ public class AutoFitSurfaceView extends SurfaceView {
             throw new IllegalArgumentException("Size cannot be negative.");
         }
         ratioWidth = width;
-        ratioHeight = height;
+        ratioHeight = width;
         requestLayout();
     }
 
